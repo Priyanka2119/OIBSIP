@@ -1,0 +1,479 @@
+*
+{
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+body
+{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+header
+{
+    height: 100vh;
+    width: 100%;
+    background-image:url(/Image/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path:polygon(50% 0%, 100% 0, 100% 74%, 50% 100%, 0 74%, 0 0);
+    background-attachment: fixed;
+}
+
+
+
+.portf
+{
+    color: white;
+    margin-left : 10%;
+    margin-top: 10px;
+    font-weight: 350;
+    letter-spacing:2px;
+    font-size:35px;
+    font-family:'Gill Sans';
+}
+
+.portf1
+{
+    color:red;
+    margin-top:10px;
+    font-weight: 350;
+    letter-spacing:2px;
+    font-size:35px;
+    font-family:'Gill Sans';
+}
+
+.menuu
+{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    font-family:serif;
+    padding: 10px;
+    padding-left: 32px;
+}
+
+.homepage
+{
+    height: 500px;
+}
+.Intro
+{
+    margin-top: 11%;
+    margin-left: 10%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hello
+{
+    font-size: 23px;
+    font-weight: 50;
+}
+
+.sejal
+{
+    font-size: 40px;
+    font-family:Verdana, sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.imgs
+{
+    margin-top: 50px;
+    height: 19rem;
+    width:20rem;
+    border: black 1px solid;
+    border-radius: 50%;
+}
+ 
+a:hover
+{
+    color: white;
+    background-color: red;  
+    
+}
+
+.hire
+{
+    color: white;
+    margin-left: 80px;
+    margin-top: 10px;
+    font-family:Verdana,sans-serif;
+    background-color:red;
+    border: none;
+    outline: none;
+    height: 35px;
+   width: 90px;
+    
+}
+.about
+{
+    color:black;
+    text-align: center;
+    margin-top: 40px;
+   
+}
+
+.Who
+{
+    text-align: center;
+    color: red;
+    font-weight: 700;
+    
+}
+
+.aimg
+{
+    height: 400px;
+    width: 300px;
+    border: 1px thin black;
+    border-radius: 5px;
+}
+
+
+.Discription
+{
+    margin-top: 60px;
+}
+
+.para
+{
+    font-family:Verdana,sans-serif;
+    text-align: justify;
+}
+
+.cv
+{
+    border: none;
+    background-color: red;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 35px;
+}
+
+.skill
+{
+    color:black;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.contact
+{
+    color:black;
+    text-align: center;
+    margin-top: 190px;
+}
+
+.do
+{
+    text-align: center;
+    color: red;
+    font-weight: 700;
+}
+
+.laptop
+{
+    width: 80%;
+    height: 80%;
+}
+
+.image_row
+{
+    background-color: black;
+}
+
+
+
+.skill_para
+{
+    color: white;
+}
+
+.lang
+{
+    color: rgb(189, 168, 168);
+}
+
+.bar
+{
+    width: 300px;
+}
+
+
+.item
+{
+    width: 360px;
+    height: 300px;
+    box-shadow: 0 4px 6px 0px rgba(1,0,1,1.8);
+    border-radius: 10%;
+    margin-left: 80px;
+    transition: 1s;
+   
+}
+
+.item:hover
+{
+    transform: scale(1.1);
+    background: #e4d8d8;
+    box-shadow: 1px 1px 1px #000;
+}
+
+.fa-code
+{
+    color: white;
+    background-color: red;
+    border: black  1px;
+    border-radius: 50%;
+    padding: 13px;
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.fa-paint-brush
+{
+    color: white;
+    background-color: red;
+    border: black  1px;
+    border-radius: 50%;
+    padding: 13px;
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.fa-mobile
+{
+    color: white;
+    background-color: red;
+    border: black  1px;
+    border-radius: 50%;
+    padding: 15px;
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 30px;
+    font-weight: 100;      
+}
+.fa-address-book
+{
+    color: white;
+}
+
+.fa-map-marker-alt
+{
+    color: white;
+}
+
+.fa-envelope
+{
+    color: white;
+}
+
+.name
+{
+    font-weight: 500;
+}
+.dev
+{
+    margin-top: 10px;
+    font-size: 40px;
+   
+    font-weight: bolder;
+}
+/*  font-family:Arial, Helvetica, sans-serif;*/
+
+.infor
+{
+    font-size: small;
+    text-align: justify;
+}
+
+b{
+    margin-left: 20px;
+}
+
+.text
+{
+    width: 500px;
+    margin-bottom: 20px;
+    height: 40px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,1,1);
+    padding-left: 10px;
+}
+
+.data
+{
+    margin-top: 80px;
+}
+
+.msg{
+    margin-left: 130px;
+    color: white;
+}
+
+.sent
+{
+    color: white;
+    margin-left: 120px;
+    margin-top: 10px;
+    font-family:Verdana,sans-serif;
+    background-color:rgb(39, 31, 31);
+    border: none;
+    outline: none;
+    height: 50px;
+   width: 200px;
+   margin-bottom: 40px;
+}
+
+
+.last
+{
+    background-color: rgb(230, 17, 17);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    height: 500px;
+    margin-top: 40px;
+}
+
+.devolop
+{
+    background-color: rgb(44, 32, 32);
+    color: white;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 0px;
+}
+
+.fa-arrow-up
+{
+    width: 30px;
+    background-color: rgb(223, 207, 207);
+}
+
+
+@media only screen and (max-width: 1220px) and (min-width: 400px) 
+{
+    .menuu{
+        display: none;    
+    }
+
+    .imgs
+    {
+        display: none;
+    }
+
+    .Intro
+    {
+        margin-top: 14%;
+
+    }
+
+    .laptop
+    {
+        text-align: center;
+        width: 80%;
+        height: 70%;
+    }
+    .item{
+        text-align: center;
+        width: 400px;
+    }
+    
+    .data
+{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.text
+{
+    margin-left: 20px;
+    margin-right: 60px;
+    width: 450px;
+}
+.last
+{
+    height: 900px;
+}
+
+.text{
+    width: 400px;
+}
+
+.contact
+{
+    margin-top: 40px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 1300px) and (min-width: 830px)
+{
+    .imgs
+    {
+        display: inline;
+        height: 340px;
+        width: 380px;
+    }
+
+    .item
+{
+    width: 360px;
+    height: 300px;
+    
+    margin-left: 200px;
+   
+}
+} 
+
+
+
+@media only screen and (max-width: 750px) and (min-width: 350px)
+{
+    .aimg
+    {
+        margin-left: 100px;
+        width: 230px;
+        height: 300px;
+    }
+
+    
+
+    .Discription
+    {
+      margin-left: 25px;
+      margin-top: 30px;
+    }
+
+    .imgs
+    {
+        display: block;
+        height: 250px;
+        width: 255px;
+        margin-left:120px;
+
+        
+    }
+   
+    .Intro
+    {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width:550px)
+{
+    .devolop
+    {
+        height: 80px;
+    }
+}
