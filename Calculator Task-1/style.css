@@ -1,0 +1,48 @@
+
+.container
+{   
+    text-align: center;
+    margin-top: 7%; 
+}
+
+body
+{
+   background-image: url("/back1.jpg");
+   background-size: cover;
+}
+table
+{
+    margin: auto;
+}
+
+input[type="text"]
+{
+    font-size: 30px;
+    height: 40px;
+    width: 280px;
+    border: dashed black 2px;
+    border-radius: 10%;
+}
+
+input[type="button"]
+{
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    border: black solid 1px;
+    border-radius: 30%;
+    font-size: 30px;
+    background-color: darkgray;
+}
+h1
+{
+    font-family:cursive;
+    font-style:oblique;
+    font-size: 50px;
+    margin-top:-46px;
+}
+.sejal{
+    margin-top: -30px;
+    margin-left: 200px;  
+    margin-right: 10px;  
+}
